@@ -7,7 +7,7 @@ def monitor(directory, dir_length):
     while True: 
         results = os.listdir(directory)
         time.sleep(1)
-        if len(results) == (dir_length+1):
+        if len(results) == (dir_length):
             break
 
 if __name__=="__main__":
